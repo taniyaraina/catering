@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display' !important ;
   font-size: 15px;
 }
 .top {
@@ -50,6 +50,9 @@ body {
 .page-section {
   display: flex;
 }
+.content {
+  padding-bottom: 80px;
+}
 .about-section {
   padding: 76px 152px;
 }
@@ -78,8 +81,8 @@ span {
 }
 .paragraph {
   opacity: 0.5;
-  }
 }
+
 .paragraph-a {
   font-size: initial;
 }
@@ -99,4 +102,48 @@ span {
 h4 {
   padding-top: 29px;
   letter-spacing: 6px;
+}
+.contact-a {
+  letter-spacing: 10px;
+}
+.contact-b {
+  padding-left: 9rem;
+}
+.contact-section {
+  font-family: 'Playfair Display';
+  padding-top: 5rem;
+}
+.contact-c {
+  margin-top: -15px;
+  padding-bottom: 10px;
+}
+.contact-d {
+  font-size: small;
+}
+input {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid #ccc;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-left: 15px;
+}
+button {
+  border: none;
+  padding: 10px 23px;
+  color: black;
+  font-size: medium;
+  cursor: pointer;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 3rem 3rem;
+  text-align: center;
+}
+.foot {
+  margin-bottom: 0;
+  font-size: small;
 }
